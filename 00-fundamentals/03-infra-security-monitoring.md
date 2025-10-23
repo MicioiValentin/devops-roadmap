@@ -33,7 +33,7 @@ What DevOps Engineers Monitor in Production
 1. **System metrics:** CPU, memory, disk usage, network latency.  
 2. **Application metrics:** request rates, response times, error percentages.  
 3. **Logs:** application logs, server logs, and container logs for debugging.  
-4. *(Bonus)* **Uptime & alerts:** monitoring SLOs and automated alerts on failures.
+4. **Uptime & alerts:** monitoring SLOs and automated alerts on failures.
 
 ---
 
