@@ -56,6 +56,10 @@ async def metrics_and_logging(request: Request, call_next):
 def health():
     return {"status": "ok"}
 
+@app.head("/healthz")
+def health_head():
+    return Response(status_code=200)
+
 @app.get("/hello")
 def hello(name: str = "Vali"):
     return {"message": f"Hello, {name}"}
